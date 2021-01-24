@@ -1,0 +1,55 @@
+body
+{
+    margin: 0;
+}
+#startbutton
+{
+	background-color: #4CAF50;
+	border-radius: 4px;
+	border:#4CAF50;
+	font-size: 18px;
+}
+/* #actualstart
+{
+	padding-left: 200px;
+} */
+.display
+{
+	margin-top: 25px;
+}
+#board{
+  border-collapse:collapse;
+  /*position: center*/
+    margin-left: 10px;
+  margin-right: 5px;
+}
+#board td{
+  border: 1px solid rgb(175, 216, 248);
+  width: 30px;
+  height: 30px;
+}
+.start{
+  /*border: 1px solid rgb(175, 216, 248);*/
+  background-image:url(circle.svg);
+  opacity: 0.3;
+  /*background-color: rgb(255, 254, 106);*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /*animation-name: specialNodes;
+  animation-duration: 2.0s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;*/
+}
+canvas
+{
+    background-color:white;
+}
+.input
+{
+  margin-left: 30px;
+}
