@@ -9,3 +9,5 @@ features:
 How to start:
 copyt the files and open main.html file
 nb:please ignore some errors
+
+u can see the demo at: https://alan1306.github.io/bst-visualizer/main
